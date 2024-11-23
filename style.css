@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 1px;
+    color: aliceblue;
+}
+audio{
+position: fixed;
+left: 40%;
+top: 30px;
+}
+.mainContainer{
+    width: 480px;
+    height: 600px;
+    margin: 100px auto;
+    border-radius: 5%;
+    padding: 15px;
+    background-color: rgba(30, 97, 30, 0.755);   
+}      
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px;
+}
+select{
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+}
+option{
+    color: black;
+}
+input{
+    width: 300px;
+    height: 28px; 
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+    
+
+}
+
+button{
+    margin-top: 10px;
+    width: 200px;
+    height: 28px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(7, 231, 14, 0.729) ;
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgba(40, 188, 45, 0.729) ;
+}
+button:active{
+    background-color: rgba(103, 253, 108, 0.729) ;
+}
+.bandeira, .bandeira2{
+    display: block; margin: 0 auto;
+    width: 50px;
+    margin-top: 10px;
+}
+#flecha{
+    width: 50px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+#gragas{
+   position: fixed;
+   top:0;
+   right:0px;
+   z-index: -1;
+
+}
+
+
